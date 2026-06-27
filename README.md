@@ -1,10 +1,41 @@
-- 👋 Hi, I’m @DDecoene
-- 👀 I’m interested in Web3, React, Solidity, NFT's, 3D printing, Open Source Hardware,...
-- 📫 Connect with me on [Twitter](https://twitter.com/DDecoene)
+# Dennis Decoene
 
-You can also find me on <img src="https://gateway.pinata.cloud/ipfs/QmS1aNoYj7jZy6sRbgdz8Jb9jyri7PKomHdRak5acsjx2y" width="30px" height="30px" alt="Fiverr"> if you'd like me to work on something: [my profile](https://www.fiverr.com/dennisdecoene)
+Builder. Tinkerer. Pragmatist.
 
-<!---
-DDecoene/DDecoene is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+West-Flanders based. I work at the intersection of systems thinking and making things
+that actually run.
+
+## What I'm building
+
+- **[WebBaseIII](https://github.com/DDecoene/webbaseiii)** — A dBASE III clone rebuilt
+  for the browser. TypeScript interpreter, WebSocket/Node backend, WAL-mode SQLite.
+  Per-session isolated executors. Architecturally superior to the original's shared-file
+  model. Because some ideas deserve a proper second life.
+
+- **[rgwnd](https://rgwnd.app)** — Wind-optimized cycling route planning for the Belgian
+  knooppuntennetwerk. Built for the rider who treats headwind as a variable, not a surprise.
+
+- **Taperwise** — Deterministic medication tapering calculators for clinicians.
+  No AI. No hallucinations. Just math that doesn't kill people.
+
+## How I work
+
+Self-hosted on Hetzner. Docker Compose, Caddy, Tailscale. I assemble existing tools
+over building new ones when that's the honest answer. I have a bias toward shipping
+things that work over announcing things that might.
+
+18 years of Microsoft Dynamics NAV/Business Central in a past life. Still useful.
+Not the whole story.
+
+## Outside the terminal
+
+Daily 30km on a non-electric bike. Working toward building custom steel bicycle frames
+— fillet brazing, laser-cut dropouts, the whole thing. Somewhere between hobby and
+slow-burn second career.
+
+Also: Latin (Familia Romana), algorithmic music (Strudel/TidalCycles, dark warehouse
+techno), and a philosophy paper that keeps getting longer.
+
+## Contact
+
+[@DDecoene](https://twitter.com/DDecoene) on X/Twitter
