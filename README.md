@@ -12,7 +12,7 @@ that actually run.
   feature it never had: real-time multiplayer editing. The full diamond, `^K` blocks,
   dot commands, and a terminal aesthetic over WebSockets and SQLite. v1.0 shipped.
 
-- **[WebBaseIII](https://github.com/DDecoene/webbaseiii)** — A dBASE III clone rebuilt
+- **[WebBaseIII](https://github.com/DDecoene/WebBaseIII)** — A dBASE III clone rebuilt
   for the browser. TypeScript interpreter, WebSocket/Node backend, WAL-mode SQLite.
   Per-session isolated executors. Architecturally superior to the original's shared-file
   model. Because some ideas deserve a proper second life.
