@@ -7,6 +7,11 @@ that actually run.
 
 ## What I'm building
 
+- **[WebWordStar](https://github.com/DDecoene/WebWordStar)** — The 1978 word processor
+  George R. R. Martin never gave up, rebuilt clean-room for the browser — with the one
+  feature it never had: real-time multiplayer editing. The full diamond, `^K` blocks,
+  dot commands, and a terminal aesthetic over WebSockets and SQLite. v1.0 shipped.
+
 - **[WebBaseIII](https://github.com/DDecoene/webbaseiii)** — A dBASE III clone rebuilt
   for the browser. TypeScript interpreter, WebSocket/Node backend, WAL-mode SQLite.
   Per-session isolated executors. Architecturally superior to the original's shared-file
