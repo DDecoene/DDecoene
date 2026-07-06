@@ -22,7 +22,7 @@ couldn't do: multiple people in the same file at the same time.
   isolated executors. Unlimited work areas, because we're no longer rationing DOS file
   handles. Shipped. Because some ideas deserve a proper second life.
 
-- **Web123** — Lotus 1-2-3. The slash menu, @functions, keyboard-only cell navigation,
+- **[Web123](https://github.com/DDecoene/Web123)** — Lotus 1-2-3. The slash menu, @functions, keyboard-only cell navigation,
   and live collaboration on the same worksheet. In design now. This is the missing
   third of the trinity.
 
