@@ -5,17 +5,42 @@ Builder. Tinkerer. Pragmatist.
 West-Flanders based. I work at the intersection of systems thinking and making things
 that actually run.
 
-## What I'm building
+## The quest
+
+In 1984, the PC office ran on three programs: WordStar, dBASE III, and Lotus 1-2-3.
+I'm rebuilding all three for the browser. Not emulation — clean-room reimplementation.
+The interface stays sacred, down to the quirks. What gets added is the one thing 1984
+couldn't do: multiple people in the same file at the same time.
 
 - **[WebWordStar](https://github.com/DDecoene/WebWordStar)** — The 1978 word processor
-  George R. R. Martin never gave up, rebuilt clean-room for the browser — with the one
-  feature it never had: real-time multiplayer editing. The full diamond, `^K` blocks,
-  dot commands, and a terminal aesthetic over WebSockets and SQLite. v1.0 shipped.
+  George R. R. Martin never gave up. The full diamond, `^K` blocks, dot commands, and
+  a terminal aesthetic over WebSockets and SQLite — now with real-time multiplayer
+  editing. v1.0 shipped.
 
-- **[WebBaseIII](https://github.com/DDecoene/WebBaseIII)** — A dBASE III clone rebuilt
-  for the browser. TypeScript interpreter, WebSocket/Node backend, WAL-mode SQLite.
-  Per-session isolated executors. Architecturally superior to the original's shared-file
-  model. Because some ideas deserve a proper second life.
+- **[WebBaseIII](https://github.com/DDecoene/WebBaseIII)** — dBASE III, dot prompt and
+  all. TypeScript interpreter, WebSocket/Node backend, WAL-mode SQLite, per-session
+  isolated executors. Unlimited work areas, because we're no longer rationing DOS file
+  handles. Shipped. Because some ideas deserve a proper second life.
+
+- **Web123** — Lotus 1-2-3. The slash menu, @functions, keyboard-only cell navigation,
+  and live collaboration on the same worksheet. In design now. This is the missing
+  third of the trinity.
+
+Then the endgame: all three on one shared virtual disk, integrated the way 1984 did
+it — interchange files, not APIs. dBASE writes a `.wks`, Lotus reads it, WordStar
+mail-merges the records. One Docker Compose file, one URL, the whole office. And once
+there are files worth managing, **WebCommander**: two blue panels, F5 to copy. You
+know the one.
+
+### Want in?
+
+Everything is AGPL and written to be read. If you ever ran an office on these
+programs — or wish you'd been there — there's work that fits in an evening: @functions
+for Web123, missing dot commands, or muscle-memory bug reports from people whose
+fingers still know `^KB`. Open an issue on any repo, send a PR, or just come argue
+about period authenticity.
+
+## Also building
 
 - **[rgwnd](https://rgwnd.app)** — Wind-optimized cycling route planning for the Belgian
   knooppuntennetwerk. Built for the rider who treats headwind as a variable, not a surprise.
