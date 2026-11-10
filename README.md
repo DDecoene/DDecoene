@@ -23,7 +23,9 @@ couldn't do: multiple people in the same file at the same time.
   handles. Shipped. Because some ideas deserve a proper second life.
 
 - **[Web123](https://github.com/DDecoene/Web123)** — Lotus 1-2-3. The slash menu, @functions, keyboard-only cell navigation,
-  and live collaboration on the same worksheet. In design now. This is the missing
+  and live collaboration on the same worksheet. Rust compiled to WebAssembly, local-first:
+  the formula engine, a keyboard-driven grid (READY, EDIT, POINT) and CRDT-backed
+  persistence already run. Peer-to-peer collaboration is next. This is the missing
   third of the trinity.
 
 Then the endgame: all three on one shared virtual disk, integrated the way 1984 did
@@ -34,11 +36,23 @@ know the one.
 
 ### Want in?
 
-Everything is AGPL and written to be read. If you ever ran an office on these
+Everything is open source and written to be read. If you ever ran an office on these
 programs — or wish you'd been there — there's work that fits in an evening: @functions
 for Web123, missing dot commands, or muscle-memory bug reports from people whose
 fingers still know `^KB`. Open an issue on any repo, send a PR, or just come argue
 about period authenticity.
+
+## Latest: WebSidTracker
+
+**[WebSidTracker](https://github.com/DDecoene/WebSidTracker)** — a music tracker for the
+Commodore 64, in the browser. **[Open it](https://ddecoene.github.io/WebSidTracker/)**,
+press Play on Ode to Joy, and change the song while it plays. Alpha, v0.1.0 is out.
+
+No samples, no synth lookalike. A 1.5 KB player written from scratch in
+6502 assembly runs inside a 6502 emulator in the page and drives reSIDfp, the SID chip
+emulation, compiled to WebAssembly. Export the song as assembler source or a ready-to-run
+`.prg` and drop the same player into your own C64 game. Clean-room, its own data format,
+its own music. Six demos to start from, including Rondo alla Turca and the Mountain King.
 
 ## Also building
 
