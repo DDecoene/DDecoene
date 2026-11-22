@@ -61,9 +61,6 @@ about period authenticity.
 - **[rgwnd](https://rgwnd.app)**: Wind-optimized cycling route planning for the Belgian
   knooppuntennetwerk. Built for the rider who treats headwind as a variable, not a surprise.
 
-- **Taperwise**: Deterministic medication tapering calculators for clinicians.
-  No AI. No hallucinations. Just math that doesn't kill people.
-
 ## How I work
 
 Self-hosted on Hetzner. Docker Compose, Caddy, Tailscale. I assemble existing tools
