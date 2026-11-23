@@ -46,7 +46,8 @@ about period authenticity.
 
 - **[raster-rumble](https://github.com/DDecoene/raster-rumble)**: a C64 dodge game in
   6502 assembly. Raster bars, a story about a ship inside a C64 at night, and a dark
-  industrial techno loop. **[Play it in your browser](https://vc64web.github.io/#openROMS=true#port2=true#https://raw.githubusercontent.com/DDecoene/raster-rumble/play/raster-rumble.prg)**. Alpha, v0.0.6.
+  industrial techno loop. **[Play it in your browser](https://ddecoene.github.io/raster-rumble/play/)**
+  ([about the game](https://ddecoene.github.io/raster-rumble/)). Alpha.
 
 - **[WebSidTracker](https://github.com/DDecoene/WebSidTracker)**: born because the
   game's sound was dragging it down. A SID music tracker in the browser
